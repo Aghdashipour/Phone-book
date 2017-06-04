@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MY-Project</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    
+    <input class="in-name" id="fullName" placeholder="Enter full name please">
+    <input class="in-phone" id="phone" placeholder="Enter phone number please">
+    <button class="add-book" onclick="showBook();">add</button><br>
+    <input type="text" id="myInput" onkeyup="filterSerch()" placeholder="Search for names..">
+    <div class="hiden" id="edit">
+        <input id="edit-1" placeholder="edint name">
+        <input id="edit-2" placeholder="edit number">
+        <button class="add-book" onclick="saveContact()">save</button>
+    </div>
+    <ul class="show-div" id="show"></ul>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

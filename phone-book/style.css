@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+input {
+    width: 30%;
+    height: 35px;
+    outline: none;
+    background-color: #c7c7c7;
+    font-weight: bold;
+    border-style: none;
+    text-align: center;  
+    margin-top: 20px;
+      
+}
+.add-book{
+    width: 6%;
+    height: 39px;
+    background-color: #c4ca8c;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+.span-1{
+    float: left;
+}
+.span-3{
+    float: right;
+    background-color: #c4ca8c;
+    width: 76px;
+    border-radius: 5px;
+    border: 5px solid #c4ca8c;
+    margin-top: -5px;
+}
+.span-4{
+    float: right;
+    margin-right: 48px;
+    background-color: #c4ca8c;
+    width: 50px;
+    border-radius: 5px;
+    border: 5px solid #c4ca8c;
+    margin-top: -5px;
+}
+.show-div {
+    width: 100%;
+    position: relative;
+    right: 39px;
+}
+li{
+    list-style: none;
+    padding: 13px;
+    background-color: #ecebeb;
+    margin-top: 5px;
+}
+li:nth-child(odd) {
+    background: #f9f9f9;
+}
+li:hover {
+    background-color: #c7c7c7;
+}
+li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+.hiden {
+    display: none;
+}
